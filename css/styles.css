@@ -1,0 +1,365 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #000;
+}
+
+ul{
+    list-style: none;
+}
+
+/*Navbar*/
+#navbar{
+    padding: 1.5rem 2.5rem;
+}
+
+#navbar h2{
+    color: #fff;
+    font-family: Helvetica;
+    font-size: 20px;
+}
+
+#navbar-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+#nav-links{
+    display: flex;
+    gap: 1rem;
+    font-size: 25px;
+}
+
+#nav-links li, 
+a{
+    color: #fff;
+    text-decoration: none;
+    background-color: #5e5e5e;
+    padding: 5px 5px;
+}
+
+/*sobre mim*/
+
+#sobremim{
+    max-width: 700px;
+    margin-top: 10rem;
+    margin-left: 7rem;
+}
+
+#sobremim h1{
+    color: #fff;
+    font-size: 75px;
+    font-weight: 100;
+    font-family: Courier, monospace;
+}
+
+#Contato{
+    margin-top: 1rem;
+    color: #fff;
+    font-size: 30px;
+    font-family: arial, sans-serif;
+}
+
+#Historia{
+    color: #fff;
+    margin-top: 1rem;
+    font-size: 28px;
+    font-family: arial, sans-serif;
+    text-align: justify;
+}
+
+#ExperienciaProfissional{
+    margin-top: 2rem;
+    margin-left: 7rem;
+    width: 1710px;
+    border: 2px solid #5e5e5e;
+    border-left: none; /* Remove a borda esquerda */
+    border-right: none; /* Remove a borda direita */
+}
+
+#ExperienciaProfissional h2{
+    color: #5e5e5e;
+    text-transform: uppercase;
+    font-family: arial, sans-serif;
+    font-size: 17px;
+    margin-top: .5rem;
+}
+
+#Prefeitura h2, p{
+    color: #fff;
+}
+
+#Prefeitura h2{
+    margin-top: 5rem;
+    font-size: 28px;
+    font-weight: 100;
+    font-family:  Courier, monospace;
+}
+
+#Prefeitura p{
+    font-size: 22px;
+    font-family: arial;
+}
+
+#Prefeituraatividades{
+    margin-top: .6rem;
+    max-width: 500px;
+    margin-left: 3rem;
+}
+
+#Prefeituraatividades p{
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+}
+
+#PeriodoPrefeitura {
+    position: absolute; 
+    top: 98.125rem; 
+    right: 5rem; 
+}
+
+#PeriodoPrefeitura p{
+    font-size: 28px;
+    font-family: Arial, sans-serif;
+}
+
+/*PERIODO DE TRABALHO ORGANIZAÇÃO SOCIAL JOAO MARCHESI*/
+
+#joaoMarchesi h2, p{
+    color: #fff;
+}
+
+#joaoMarchesi h2{
+    margin-top: 10rem;
+    font-size: 28px;
+    font-weight: 100;
+    font-family:  Courier, monospace;
+}
+
+#joaoMarchesi p{
+    font-size: 22px;
+    font-family: arial;
+}
+
+#joaoMarchesiAtividades{
+    margin-top: .6rem;
+    max-width: 500px;
+    margin-left: 3rem;
+}
+
+#joaoMarchesiAtividades p{
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+    margin-bottom: 5rem;
+}
+
+#PeriodoJoaoMarchesi{
+    position: absolute; 
+    top: 120.625rem; 
+    right: 5rem; 
+}
+
+#PeriodoJoaoMarchesi p{
+    font-size: 28px;
+    font-family: Arial, sans-serif;
+}
+
+/*FORMAÇÃO PROFISSIONAL*/
+#FormaçãoProfissional{
+    margin-top: 1rem;
+    margin-left: 7rem;
+    width: 1710px;
+    border-bottom: 2px solid #5e5e5e;
+}
+
+
+#FormaçãoProfissional h2{
+    color: #5e5e5e;
+    text-transform: uppercase;
+    font-family: arial, sans-serif;
+    font-size: 17px;
+    margin-top: .5rem;
+}
+
+#Pitagoras h2, p{
+    color: #fff;
+}
+
+#Pitagoras h2{
+    margin-top: 5rem;
+    font-size: 28px;
+    font-weight: 100;
+    font-family:  Courier, monospace;
+}
+
+#Pitagoras p{
+    font-size: 22px;
+    font-family: arial;
+}
+
+#ConclusaoFaculdade{
+    position: absolute; 
+    top: 2355px; 
+    right: 5rem; 
+}
+
+#ConclusaoFaculdade p{
+    font-size: 28px;
+    font-family: Arial, sans-serif;
+}
+
+#CursosdeCertificacao h2, p{
+    color: #fff;
+}
+
+#CursosdeCertificacao h2{
+    margin-top: 10rem;
+    font-size: 28px;
+    font-weight: 100;
+    font-family:  Courier, monospace;
+}
+
+#CursosdeCertificacao p{
+    font-size: 22px;
+    font-family: arial;
+    margin-bottom: 5rem;
+}
+
+/*HABILIDADES E CONHECIMENTOS*/
+
+#HablidadeseConhecimentos{
+    margin-top: 2rem;
+    margin-left: 7rem;
+    width: 1710px;
+    border-bottom: 2px solid #5e5e5e;
+}
+
+#HablidadeseConhecimentos h2{
+    color: #5e5e5e;
+    text-transform: uppercase;
+    font-family: arial, sans-serif;
+    font-size: 17px;
+    margin-top: .5rem;
+}
+
+#DesenvolvimentoFrontEnd h2{
+    color: #fff;
+    margin-top: 10rem;
+    font-size: 28px;
+    font-weight: 100;
+    font-family:  Courier, monospace;
+}
+
+#DesenvolvimentoFrontEnd p{
+    max-width: 700px;
+    margin-top: .6rem;
+    margin-left: 3rem;
+    font-size: 22px;
+    font-family: Arial, sans-serif;
+}
+
+#OutrasHabilidades h2{
+    color: #fff;
+    margin-top: 10rem;
+    font-size: 28px;
+    font-weight: 100;
+    font-family:  Courier, monospace;
+}
+
+#OutrasHabilidades p{
+    max-width: 700px;
+    margin-top: .6rem;
+    margin-left: 3rem;
+    font-size: 22px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 5rem;
+}
+
+/*CONTATO*/
+
+#ContatoFernando{
+    margin-top: 2rem;
+    margin-left: 7rem;
+    width: 1710px;
+    border-bottom: 2px solid #5e5e5e;
+}
+
+#ContatoFernando h2{
+    color: #5e5e5e;
+    text-transform: uppercase;
+    font-family: arial, sans-serif;
+    font-size: 17px;
+    margin-top: .5rem;
+}
+
+#TelefoneFernando h2{
+    color: #fff;
+    margin-top: 3rem;
+    font-size: 28px;
+    font-weight: 100;
+    font-family:  Courier, monospace;
+}
+
+#TelefoneFernando p{
+    font-size: 22px;
+    font-family: arial;
+}
+
+#EmailFernando h2{
+    color: #fff;
+    margin-top: 3rem;
+    font-size: 28px;
+    font-weight: 100;
+    font-family:  Courier, monospace;
+}
+
+#EmailFernando p{
+    font-size: 22px;
+    font-family: arial;
+}
+
+#MinhasRedesSociais h2{
+    color: #fff;
+    margin-top: 3rem;
+    font-size: 28px;
+    font-weight: 100;
+    font-family:  Courier, monospace;
+}
+
+#MinhasRedesSociais {
+    display: flex;
+    flex-direction: column; /* Alinha os itens em coluna */
+    margin-bottom: 5rem;
+    
+}
+
+.social-icons {
+    display: flex; /* Alinha os ícones em linha */
+    gap: 10px; /* Espaçamento entre os ícones */
+    margin-top: 10px; /* Espaço entre o título e os ícones */
+}
+
+/*RODAPE*/
+
+#copyright{
+    margin-top: 2rem;
+    margin-left: 7rem;
+    margin-bottom: 2rem;
+}
+
+#copyright p{
+    font-size: 22px;
+    font-family: arial;
+}

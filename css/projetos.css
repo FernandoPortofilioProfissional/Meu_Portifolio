@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #000;
+}
+
+ul{
+    list-style: none;
+}
+
+/*NAVBAR*/
+#navbar{
+    padding: 1.5rem 2.5rem;
+}
+
+#navbar h2{
+    color: #fff;
+    font-family: Helvetica;
+    font-size: 20px;
+}
+
+#navbar-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+#nav-links{
+    display: flex;
+    gap: 1rem;
+    font-size: 25px;
+}
+
+#nav-links li, 
+a{
+    color: #fff;
+    text-decoration: none;
+    background-color: #5e5e5e;
+    padding: 5px 5px;
+}
+
+/*TITULO DA PAGINA*/
+#titulodaPagina{
+    margin-top: 10rem;
+    text-align: center;
+}
+
+#titulodaPagina h1,
+p{
+    color: #fff;
+}
+
+#titulodaPagina h1{
+    font-size: 70px;
+    font-weight: 100;
+    font-family: Courier, monospace;
+}
+
+#titulodaPagina p{
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+}
+
+/*SECAO DE PROJETOS*/
+
+.container {
+    display: flex;
+    margin-top: 10rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.quadrado {
+    width: 600px;
+    height: 700px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover; /* Para cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+}
+
+.quadrado:hover {
+    transform: scale(1.03); /* Zoom de 5% ao passar o mouse */
+}
+
+.blog {
+    background-image: url('../img/blog.png'); /* Substitua pelo URL da imagem do Blog */
+}
+
+.instagram {
+    background-image: url('../img/instagram.png'); /* Substitua pelo URL da imagem do Instagram */
+}
+
+.hdc-host {
+    background-image: url('../img/hdchost.png'); /* Substitua pelo URL da imagem do hDC Host */
+}
+
+.venda-carros {
+    background-image: url('../img/carro.png'); /* Substitua pelo URL da imagem da Venda Carros */
+}
+
+.the-offsprings {
+    background-image: url('../img/theoffsprings.png'); /* Substitua pelo URL da imagem do The Offsprings */
+}
+
+.quadrado h3 {
+    margin-top: 30rem; /* Ajuste conforme necessário */
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: 100;
+}
+
+.quadrado a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.6); /* Fundo semi-transparente */
+    padding: 30px 200px;
+    font-size: 30px;
+}
+
+
+/*RODAPE*/
+
+#copyright{
+    margin-top: 2rem;
+    margin-left: 7rem;
+    margin-bottom: 2rem;
+    width: 1710px;
+    border-top: 2px solid #5e5e5e;
+}
+
+#copyright p{
+    margin-top: 2rem;
+    font-size: 22px;
+    font-family: arial;
+}
